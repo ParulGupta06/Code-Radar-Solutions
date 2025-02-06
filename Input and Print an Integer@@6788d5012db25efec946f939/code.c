@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
-   int a;
-   scnaf("%d",&a);
-   printf("Enter the number: %d\n", a);
+   int num;
+   scnaf("%d",&num);
+   printf("Enter the number: %d\n", num);
    return 0;
 }
