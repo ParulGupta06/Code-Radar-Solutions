@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    char str[100];  
-    printf("Enter a string: ");
+    char str[100];
     scanf("%s", str);
-    printf("You entered: %s\n", str);
+    printf("you entered :%s\n", str);
+
     return 0;
 }
