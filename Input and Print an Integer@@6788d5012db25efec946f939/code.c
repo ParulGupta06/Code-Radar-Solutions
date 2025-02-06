@@ -2,6 +2,6 @@
 int main(){
    int a;
    scnaf("%d",&a);
-   printf("Enter the number:",a);
+   printf("Enter the number: %d\n", a);
    return 0;
 }
