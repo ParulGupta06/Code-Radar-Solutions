@@ -1,9 +1,7 @@
 #include <stdio.h>
-
 int main() {
     float num;
     scanf("%f", &num);
-    printf("You entered: %.2f\n", num * 2);
-    
+    printf("Product: %.2f\n", num * 2);
     return 0;
 }
