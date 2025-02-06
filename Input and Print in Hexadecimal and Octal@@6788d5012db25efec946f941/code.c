@@ -4,6 +4,5 @@ int main(){
     scanf("%d", &num);
     printf("Hexadecimal %X\n", num);
     printf("Octal %c\n", num);
-
     return 0;
 }
