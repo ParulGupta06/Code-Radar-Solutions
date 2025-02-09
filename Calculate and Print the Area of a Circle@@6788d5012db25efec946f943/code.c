@@ -4,9 +4,8 @@
 
 int main() {
     float radius, area;
+    const float PI = 3.14
 
-    // Input the radius of the circle
-    printf("Enter the radius of the circle: ");
     scanf("%f", &radius);
 
     // Calculate the area
