@@ -3,9 +3,9 @@ int main(){
     int a;
     scanf("%d",&a);
     if (a&(1<<31)==1){
-        printf("Set")
+        printf("Set");
     }else{
-        printf("Not set");
+        printf("Not Set");
     }
     return 0;
 }
