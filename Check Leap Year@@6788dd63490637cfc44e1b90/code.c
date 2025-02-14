@@ -1,11 +1,13 @@
 #include <stdio.h>
+
 int main() {
     int year;
-    scanf("%d"&year);
+    scanf("%d", &year);
+
     if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
-        cout << "Leap Year" << endl;
+        printf("Leap Year\n");
     } else {
-        cout << "Not a Leap Year" << endl;
+        printf("Not a Leap Year\n");
     }
 
     return 0;
