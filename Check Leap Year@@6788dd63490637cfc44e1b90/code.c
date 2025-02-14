@@ -1,11 +1,11 @@
 #include <stdio.h>
-int main(){
-    int num;
-    scanf("%d",&num);
-    if("num > 365/2"){
-        printf("Leap year");
-    }else{
-        printf("Not a leap year");
+int main() {
+    int year;
+    scanf("%d", &year);
+    if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
+        printf("%d Leap Year.\n", year);
+    } else {
+        printf("%d Not a Leap Year.\n", year);
     }
     return 0;
 }
