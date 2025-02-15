@@ -2,14 +2,14 @@
 int main(){
     char ch;
     scanf("%c", &ch);
-    if(ch>='0' && ch<= '9'){
-        printf("digit\n")
+    if(ch>='0' && ch<='9'){
+        printf("digit")
     }else if( ch=='a' || ch == 'e' || ch == 'i' || ch=='o' ||ch=='u'){
-        printf("vowel\n");
+        printf("vowel");
     }else{
-        printf("consonant\n");
+        printf("consonant");
     }else{
-        printf("special character\n");
+        printf("special character");
     }
     return 0;
 }
