@@ -2,9 +2,10 @@
 int main(){
     int num;
     scanf("%d",&num);
-    if("num % 5 == 0 && num % 11 == 0"){
+    if(num % 5 == 0 && num % 11 == 0){
         printf("Divisible");
-    }else{
+    }
+    else{
         printf("Not Divisible");
     }
     return 0;
