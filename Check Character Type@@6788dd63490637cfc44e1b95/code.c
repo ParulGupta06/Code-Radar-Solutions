@@ -8,9 +8,9 @@ int main() {
     else if (isalpha(ch)) {
         ch = tolower(ch);
         if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
-            printf("vowel\n");
+            printf("vowel");
         } else {
-            printf("consonant\n");
+            printf("consonant");
         }
     }
     else {
