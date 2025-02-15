@@ -4,9 +4,9 @@ int main(){
     scanf("%c", &ch);
     if(ch>='0' && ch<='9'){
         printf("digit")
-    }else if( ch=='a' || ch == 'e' || ch == 'i' || ch=='o' ||ch=='u'){
+    }if else( ch=='a' || ch == 'e' || ch == 'i' || ch=='o' ||ch=='u'){
         printf("vowel");
-    }else{
+    }if else{
         printf("consonant");
     }else{
         printf("special character");
