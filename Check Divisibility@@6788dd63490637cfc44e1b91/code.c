@@ -1,10 +1,11 @@
 #include <stdio.h>
 int main(){
     int num;
-    num = int(input("Enter a number: "))
-if num % 5 == 0 and num % 11 == 0:
-    print("Divisible")
-else:
-    print("Not Divisible")
-
+    scanf("%d",&num);
+    if("num % 5 == 0 and num % 11 == 0"){
+        printf("Divisible");
+    }else{
+        printf("Not Divisible");
+    }
+    return 0;
 }
